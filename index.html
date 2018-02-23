@@ -45,6 +45,36 @@
         <ul><a href="https://en.wikipedia.org/wiki/Web_Feature_Service">WFS</a></ul>
     </div>
     <div data-background-image="img/wms.png"></div>
+    <div>
+        <pre><em>http://localhost:8080/geoserver/wms?<br>bbox=-130,24,-66,50<br>&styles=population<br>&Format=image/png<br>&request=GetMap<br>&layers=topp:states<br>&width=550&height=250<br>&srs=EPSG:4326</em></pre>
+    </div>
+    <div>
+        <pre><em>http://localhost:8080/geoserver/wms?<br>service=WMS&<br>version=1.3.0&<br>request=GetCapabilities</em></pre>
+    </div>
+    <div>Pse WMS?</div>
+    <div><img src="img/layer_onion.jpg" alt=""></div>
+    <div data-background-image="img/wfs.png"></div>
+    <div>
+        <pre><em>http://localhost:8080/geoserver/wfs?<br>version=1.1.0<br>&request=GetFeature<br>&typename=topp:states&featureid=states.39</em></pre>
+    </div>
+    <div>
+        <pre><em>http://localhost:8080/geoserver/wfs?<br>&Version=1.1.0&<br>request=GetCapabilities</em></pre>
+    </div>
+    <div>Pse WFS?</div>
+    <div><img src="img/osm.png" alt="">OSM Editing</div>
+    <div>
+        <ol>WMTS</ol>
+        <ol>WPS</ol>
+        <ol>WCS</ol>
+    </div>
+    <div><green>Tiles</green></div>
+    <div>Tiles jane <a href="http://www.maptiler.org/google-maps-coordinates-tile-bounds-projection/" target="_blank">tjegula</a> 😋</div>
+    <div>Sa <a href="https://tools.geofabrik.de/calc/#type=geofabrik_standard&bbox=19.029273,39.573891,21.171853,42.621061" target="_blank">tjegulla?</a></div>
+    <div><a href="https://osmlab.github.io/osm-qa-tiles/">Enter</a> <br>
+    <em>Vector Tiles</em></div>
+
+
+
 </body>
 
 </html>
